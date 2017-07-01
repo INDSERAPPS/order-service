@@ -11,7 +11,6 @@ public class test {
 	@Column(name = "testid")
 	private int testid;
 
-	@Id
 	@Column(name = "name")
 	private String name;
 
