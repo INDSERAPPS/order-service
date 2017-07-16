@@ -11,6 +11,7 @@ import javax.persistence.Table;
  * 
  * @author RXD117 -
  */
+
 @Entity
 @Table(name = "CART")
 public class Cart {

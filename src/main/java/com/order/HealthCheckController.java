@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping(path = "/test")
+@RequestMapping(path = "")
 public class HealthCheckController {
 
 	@Autowired // This means to get the bean called userRepository
